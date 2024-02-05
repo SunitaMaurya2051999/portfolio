@@ -706,11 +706,17 @@ h1.style2 span.p:nth-child(n + 2), h2.style2 span.p:nth-child(n + 2), h3.style2 
     html {
         font-size: 13pt;
     }
+    .image.style1 .frame {
+        width: 9rem;
+    }
 }
 
 @media (max-width: 1280px) {
     html {
         font-size: 13pt;
+    }
+    .image.style1 .frame {
+        width: 10rem;
     }
 }
 
