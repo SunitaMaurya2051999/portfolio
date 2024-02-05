@@ -743,7 +743,7 @@ h1.style2 span.p:nth-child(n + 2), h2.style2 span.p:nth-child(n + 2), h3.style2 
     }
 
     .image.style1 .frame {
-        width: 7rem;
+        width: 11rem;
     }
 
     h1.style1, h2.style1, h3.style1, p.style1 {
