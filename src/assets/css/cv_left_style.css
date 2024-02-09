@@ -1,0 +1,12 @@
+.cv_content_left{
+    position: fixed;
+    width: 380px;
+    background-color: #362B2E;
+    height: 100vh;
+    z-index: 1; 
+}
+
+.cv_content_left_wrapper{
+    padding-left: 75px;
+    position: relative;
+}

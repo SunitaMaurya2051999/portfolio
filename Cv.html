@@ -1,13 +1,200 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <div>
-       <h1>This is my CV</h1>
+  <head>
+    <title>🚀 Portfolio</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link href="https://fonts.googleapis.com/css?display=swap&family=DM+Sans:500,500italic,400,400italic" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="./src/assets/css/cv_style.css" />
+    <link rel="stylesheet" href="./src/assets/css/cv_left_style.css" />
+    <link rel="stylesheet" href="./src/assets/css/cv_right_style.css" />
+    <link rel="stylesheet" href="./src/assets/css/cv_service_style.css" />
+    <link rel="stylesheet" href="./src/assets/css/cv_portfolio_style.css" />
+  </head>
+  <body>
+    <div id="cv_content">
+      <div class="cv_content_left">
+        <div class="cv_content_left_wrapper">
+          <header>
+            <div class=""></div>
+            <div class=""></div>
+            <div class=""></div>
+            <div class=""></div>
+            <div class=""></div>
+          </header>
+        </div>
+      </div>
+      <div class="cv_content_right">
+        <div class="cv_content_right_wrapper">
+          <div id="cv_home" class="cv_section cv_full_width_section">
+            <div class="cv_section_wrapper">
+              <div class="cv_home_left">
+                <p class="cv_home_left_self_des">Hello, My name is</p>
+                <h1 class="cv_home_left_self_title">ss ss ss ss</h1>
+                <p class="cv_home_left_self_intro">self self self</p>
+                <div class="cv_home_left_social_links">
+                  <a href="#">LINKEDIN</a>
+                  <a href="#">LINKEDIN</a>
+                  <a href="#">LINKEDIN</a>
+                </div>
+              </div>
+              <div class="cv_home_right"></div>
+            </div>
+          </div>
+          <!-- Service -->
+          <div id="cv_services" class="cv_section">
+            <div class="cv_section_wrapper">
+              <div class="cv_content_div">
+                <div class="cv_services_content_row">
+                  <div class="cv_services_content_one_half cv_services_width">
+                    <div class="cv_services_wrapper">
+                      <div class="cv_services_holder">
+                        <img src="./demo/images/service1.png" alt="" />
+                        <h4 class="cv_services_title">Design</h4>
+                        <div class="cv_services_text">A full stack allaround designer that may or may not include a guide for specific creative people</div>
+                      </div>
+                      <div class="cv_services_holder m-right-0">
+                        <img src="./demo/images/service2.png" alt="" />
+                        <h4 class="cv_services_title">Design</h4>
+                        <div class="cv_services_text">A full stack allaround designer that may or may not include a guide for specific creative people</div>
+                      </div>
+                      <div class="cv_services_holder m-bottom-0">
+                        <img src="./demo/images/service3.png" alt="" />
+                        <h4 class="cv_services_title">Design</h4>
+                        <div class="cv_services_text">A full stack allaround designer that may or may not include a guide for specific creative people</div>
+                      </div>
+                      <div class="cv_services_holder m-right-0 m-bottom-0">
+                        <img src="./demo/images/service4.png" alt="" />
+                        <h4 class="cv_services_title">Design</h4>
+                        <div class="cv_services_text">A full stack allaround designer that may or may not include a guide for specific creative people</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="cv_services_content_one_half cv_services_width_sec cv_services_last">
+                    <h2 class="cv_section_title">Services</h2>
+                    <p class="cv_section_info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra tristique placerat in massa consectetur quisque nunc fames.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra tristique placerat in massa consectetur quisque. Nunc ac fames lectus in libero aliquet.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra tristique placerat in massa consectetur quisque. Nunc ac fames lectus in libero aliquet.</p>
+                    <div class="cv_section_button_wrapper">
+                      <a class="button">Download CV</a>
+                      <a href="#portfolio" class="button">Check My Portfolio</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Portfolio -->
+          <div id="portfolio" class="cv_section">
+            <div class="cv_section_wrapper">
+              <div class="cv_content_div">
+                <div id="cv_portfolio_wrapper" class="cv_relative">
+                  <div class="cv_portfolio_category_filter">
+                    <div class="cv_portfolio_category_filter_icon"></div>
+                  </div>
+                  <div class="cv_portfolio_category_filter_list button_group filters_button_group">
+                    <div class="button is-checked" data-filter="*">All</div>
+                    <div class="button" data-filter=".text">Text</div>
+                    <div class="button" data-filter=".video">Video</div>
+                    <div class="button" data-filter=".image">Image</div>
+                  </div>
+                  <div class="cv_portfolio_content_holder"></div>
+
+                  <div class="cv_grid" id="cv_portfolio_grid">
+                    <div class="cv_grid_sizer"></div>
+
+                    <div id="cv_pro_item_1" class="cv_grid_item cv_element_item cv_pro_one_third cv_text">
+                      <a class="item-link ajax-portfolio" href="portfolio-1.html" data-id="1">
+                        <img src="./demo/images/portfolio1.jpg" alt="" />
+                        <div class="cv_portfolio_text_holder">
+                          <div class="cv_portfolio_text_wrapper">
+                            <p class="cv_portfolio_text">Home</p>
+                            <p class="cv_portfolio_cat">Text</p>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+
+                    <div id="cv_pro_item_2" class="cv_grid_item cv_element_item cv_pro_one_third cv_text">
+                      <a class="item-link ajax-portfolio" href="portfolio-2.html" data-id="2">
+                        <img src="./demo/images/portfolio2.jpg" alt="" />
+                        <div class="cv_portfolio_text_holder">
+                          <div class="cv_portfolio_text_wrapper">
+                            <p class="cv_portfolio_text">Stairways</p>
+                            <p class="cv_portfolio_cat">Text</p>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+
+                    <div id="cv_pro_item_3" class="cv_grid_item cv_element_item cv_pro_one_third cv_text">
+                      <a class="item-link ajax-portfolio" href="portfolio-3.html" data-id="3">
+                        <img src="./demo/images/portfolio3.jpg" alt="" />
+                        <div class="cv_portfolio_text_holder">
+                          <div class="cv_portfolio_text_wrapper">
+                            <p class="cv_portfolio_text">Sneakers</p>
+                            <p class="cv_portfolio_cat">Text</p>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+
+                    <div class="cv_grid_item cv_element_item cv_pro_one_third cv_video">
+                      <a class="item-link" href="https://vimeo.com/199192931" data-rel="prettyPhoto[portfolio]" rel="prettyPhoto[portfolio]">
+                        <img src="./demo/images/portfolio4.jpg" alt="" />
+                        <div class="cv_portfolio_text_holder">
+                          <div class="cv_portfolio_text_wrapper">
+                            <p class="cv_portfolio_text">Design</p>
+                            <p class="cv_portfolio_cat">Video</p>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+
+                    <div class="cv_grid_item cv_element_item cv_pro_one_third cv_image">
+                      <a class="item-link" href="./demo/images/item_03.jpg" data-rel="prettyPhoto[portfolio]" rel="prettyPhoto[portfolio]">
+                        <img src="./demo/images/portfolio5.jpg" alt="" />
+                        <div class="cv_portfolio_text_holder">
+                          <div class="cv_portfolio_text_wrapper">
+                            <p class="cv_portfolio_text">Leaf</p>
+                            <p class="cv_portfolio_cat">Image</p>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+
+                    <div class="cv_grid_item cv_element_item cv_pro_one_third cv_image">
+                      <a class="item-link" href="./demo/images/item_02.jpg" data-rel="prettyPhoto[portfolio]" rel="prettyPhoto[portfolio]">
+                        <img src="./demo/images/portfolio6.jpg" alt="" />
+                        <div class="cv_portfolio_text_holder">
+                          <div class="cv_portfolio_text_wrapper">
+                            <p class="cv_portfolio_text">Bottle</p>
+                            <p class="cv_portfolio_cat">Image</p>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Resume -->
+          <div id="resume" class="cv_section">
+            <div class="cv_section_wrapper">
+              <div class="cv_content_div">
+                <div class="cv_services_content_row">
+                  <div class="cv_services_content_one_half cv_services_width">
+                    <h2 class="entry-title section-title">Experience</h2>
+                  </div>
+                  <div class="cv_services_content_one_half cv_services_width_sec cv_services_last">
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
