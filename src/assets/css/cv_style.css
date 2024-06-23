@@ -70,3 +70,7 @@ a.button {
     border-radius: 50px;
     transition: all .2s linear;
 }
+
+#resume{
+    padding-bottom: 120px;
+}
